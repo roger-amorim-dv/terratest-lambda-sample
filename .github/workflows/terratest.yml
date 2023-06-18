@@ -1,17 +1,12 @@
 name: Terratest
 
-#on:
-#  pull_request:
-#    paths:
-#      - 'terraform/modules/**' test
-
 on:
-  push:
-    branches:
-      - main
+  pull_request:
+    paths:
+      - 'terraform/modules/**'
 
 jobs:
-  test:
+  terratest-run:
     runs-on: ubuntu-latest
 
     steps:
