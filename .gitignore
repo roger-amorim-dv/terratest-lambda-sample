@@ -1,0 +1,45 @@
+# Go
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Build directories
+_build/
+dist/
+
+# Dependency directories
+vendor/
+Godeps/
+.cache/
+
+# Terraform
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+
+# .tfstate backups
+*.tfstate.backup
+
+# Crash log files
+crash.log
+
+# Ignore all .tfvars files, which are likely to contain sensitive information
+*.tfvars
+
+# Ignore override files as they are usually used to override resources locally and don't need to be committed
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+cli.rc
