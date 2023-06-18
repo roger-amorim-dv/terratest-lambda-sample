@@ -1,1 +1,0 @@
-# terratest-lambda-sample new

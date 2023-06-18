@@ -27,7 +27,7 @@ variable "environment_variables" {
 }
 
 variable "timeout" {
-  default = "5"
+  default = "10"
 }
 
 variable "memory_size" {

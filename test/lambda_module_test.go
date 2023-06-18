@@ -57,6 +57,7 @@ func TestLambdaModule(t *testing.T) {
 	sess, err := session.NewSession(&aws.Config{
 		Region: aws.String("us-east-2"),
 	})
+
 	assert.NoError(t, err)
 
 	client := lambda.New(sess)
