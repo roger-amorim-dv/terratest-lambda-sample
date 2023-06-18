@@ -51,20 +51,15 @@ This repository includes a GitHub Actions workflow that automatically runs the t
 
 The workflow is triggered on pull requests that modify files under the `terraform/modules` directory. It sets up the Go environment, installs Terratest, and runs the tests using the `go test` command.
 
-Look this successfully example:
+Look this successfully lambda tests example:
 
-![Image Caption](images/github_action_successfully.png)
+![Image Caption](images/terratest_pipeline_success.png)
+
+Look this successfully pipeline example:
+
+![Image Caption](images/terratest_tests_success.png)
 
 ## Resources
 
 - [Terratest Documentation](https://terratest.gruntwork.io/docs/)
 - [AWS Lambda Developer Guide](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-This updated version includes the information about the GitHub Actions workflow at the appropriate location in the README.md file. It mentions the location of the workflow file and provides a brief description of the workflow's purpose and triggering conditions.
-
-Feel free to modify the README.md file further to match your specific project needs.
